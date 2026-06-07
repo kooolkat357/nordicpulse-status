@@ -59,16 +59,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/vudyxilzwpquznhdpiuh.supabase.co.ico",
     "slug": "database-and-auth",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "59.77%",
+    "uptimeDay": "59.77%",
+    "uptimeWeek": "59.77%",
+    "uptimeMonth": "59.77%",
+    "uptimeYear": "59.77%",
     "time": 73,
     "timeDay": 73,
     "timeWeek": 73,
     "timeMonth": 73,
     "timeYear": 73,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-06-07": 0
+    }
   }
 ]
