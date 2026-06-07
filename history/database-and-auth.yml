@@ -1,7 +1,7 @@
 url: https://vudyxilzwpquznhdpiuh.supabase.co/auth/v1/health
 status: up
-code: 401
-responseTime: 82
-lastUpdated: 2026-06-07T13:38:33.675Z
+code: 200
+responseTime: 407
+lastUpdated: 2026-06-07T18:34:17.516Z
 startTime: 2026-06-07T12:37:23.532Z
 generator: Upptime <https://github.com/upptime/upptime>
