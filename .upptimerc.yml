@@ -15,8 +15,13 @@ sites:
       - 200
   - name: Database & Auth
     url: https://vudyxilzwpquznhdpiuh.supabase.co/auth/v1/health
+    # Supabase's Kong gateway requires the apikey header even on the GoTrue
+    # health endpoint. The anon key is PUBLIC (ships in the browser bundle,
+    # protected by RLS) so it is safe to commit here. This gives a true 200
+    # health signal instead of accepting 401 (which only proves Kong is up).
+    headers:
+      - "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ1ZHl4aWx6d3BxdXpuaGRwaXVoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyODYyMDUsImV4cCI6MjA4MDg2MjIwNX0.-lWRnB_HogFRPjyfA17vP8vHh00PPrNfFkBh8NWxhCA"
     expectedStatusCodes:
-      - 401
       - 200
 
 status-website:
