@@ -20,6 +20,7 @@ sites:
       - 200
 
 status-website:
+  baseUrl: /nordicpulse-status
   name: NordicPulse Status
   introTitle: "NordicPulse — driftsstatus"
   introMessage: "Sanntidsstatus for tjenestene våre. Real-time status of our services."
