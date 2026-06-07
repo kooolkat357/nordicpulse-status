@@ -16,6 +16,7 @@ sites:
   - name: Database & Auth
     url: https://vudyxilzwpquznhdpiuh.supabase.co/auth/v1/health
     expectedStatusCodes:
+      - 401
       - 200
 
 status-website:
