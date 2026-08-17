@@ -40,19 +40,19 @@
     "url": "https://nordicpulse-api.fly.dev/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/nordicpulse-api.fly.dev.ico",
     "slug": "api-gateway",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "98.54%",
-    "uptimeWeek": "99.79%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.98%",
-    "time": 1775,
-    "timeDay": 21716,
-    "timeWeek": 5802,
-    "timeMonth": 2630,
-    "timeYear": 1775,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "97.36%",
+    "uptimeWeek": "99.62%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.96%",
+    "time": 1770,
+    "timeDay": 14950,
+    "timeWeek": 5315,
+    "timeMonth": 2593,
+    "timeYear": 1770,
     "dailyMinutesDown": {
-      "2026-08-17": 21
+      "2026-08-17": 38
     }
   },
   {
