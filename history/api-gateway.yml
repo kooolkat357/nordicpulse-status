@@ -1,7 +1,7 @@
 url: https://nordicpulse-api.fly.dev/api/health
-status: down
-code: 503
-responseTime: 54169
-lastUpdated: 2026-10-30T09:53:11.339Z
+status: up
+code: 200
+responseTime: 10402
+lastUpdated: 2026-10-30T09:57:17.507Z
 startTime: 2026-06-07T12:37:23.029Z
 generator: Upptime <https://github.com/upptime/upptime>
